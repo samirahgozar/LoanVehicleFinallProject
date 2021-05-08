@@ -1,0 +1,34 @@
+<ag-grid-angular
+  #loanCar
+  id="loanCar"
+  tabindex="2"
+  class="ag-theme-balham w-100"
+  [gridOptions]="gridOptions"
+  [columnDefs]="columnDefs"
+  [defaultColDef]="defaultColDef"
+  (rowClicked)="onRowClicked($event)"
+  (paginationChanged)="onGridPaginationChanged($event)"
+  (gridReady)="onGridReady($event)">
+</ag-grid-angular>
+<div class="row ag-grid-footer mt-3">
+  <div class="col-lg-6 col-sm-4">
+    <button type="button" nbButton outline  status="info" (click)="reloadGridData()"><nb-icon icon="refresh-outline"></nb-icon></button>
+  </div>
+  <div class="col-lg-6 col-sm-8 text-left">
+    <div class="custom-ag-pagination" style="float: right;">
+      <span class="mr-1">size:</span>
+      <select #pageSize (change)="onPageSizeChanged()" id="page-size">
+        <option value="10" selected="">10</option>
+        <option value="30">30</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+      <span class="pr-2 ml-1">current:</span>
+      <input #currentPage type="text" id="current-page" (keydown.enter)="onCurrentPageChanged($event.target.value)" class="custom-ag-current-page" />
+    </div>
+  </div>
+</div>
+<div class="col-lg-6 col-sm-4 mt-4 pl-0">
+  <button type="button" nbButton status="success" (click)="onBtnExport()">Export to excel (csv)</button>
+</div>
+

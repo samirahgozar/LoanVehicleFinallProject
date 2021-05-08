@@ -1,0 +1,3 @@
+C:\01-Programming\ForIranianCanada\Source\01-LoanCarsProject\SourceCode\LoanCar.Web\obj\Debug\netcoreapp2.2\LoanCar.Web.csprojAssemblyReference.cache
+C:\01-Programming\ForIranianCanada\Source\01-LoanCarsProject\SourceCode\LoanCar.Web\obj\Debug\netcoreapp2.2\LoanCar.Web.AssemblyInfoInputs.cache
+C:\01-Programming\ForIranianCanada\Source\01-LoanCarsProject\SourceCode\LoanCar.Web\obj\Debug\netcoreapp2.2\LoanCar.Web.AssemblyInfo.cs

@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Agency - Choose Your Vehicle</title>
+    <link rel="icon" type="image/x-icon" href="~/assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- modal-->
+    <link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+    <link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <!-- datepicker -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <!-- Main Style Css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="css/modalStyle.css" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            @*<a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="/assets/img/vac-logo-b.jpg" alt="" /></a>*@
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container-fluid">
+            <div class="masthead-heading text-uppercase"></div>
+            @*<a data-toggle="modal" href="#portfolioModal1" class="btn btn-primary btn-xl  text-uppercase portfolio-link" style="color: black;    left: 25%;
+                bottom: 19px;background-color: #fed1368c;
+                border-color: #fed136;
+                position: relative;">GET STARTED</a>*@
+            <div class="row">
+                <ul class="" style="text-align: justify;position: relative;top: -123px;color: #fdff81">
+                    <li style="list-style: none;" class="">
+                        <h4 style="text-shadow: 1px 1px 1px black;">Need A Car Loan?Bad Credit? No Credit?</h4>
+                        <h5 style="text-shadow: 1px 1px 1px black;">We Can help</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="" style="text-align: justify;position: relative;top: -100px;width:70%">
+                    <li style="list-style: none;text-shadow: 1px 1px 1px black;" class="mb-2"><i class="fas fa-check pr-1 text-success"></i>Free Delivery in Lower Mainland</li>
+                    <li style="list-style: none;text-shadow: 1px 1px 1px black;" class="mb-2"><i class="fas fa-check pr-1 text-success"></i>Access To Over 1,000 Vehicles</li>
+                    <li style="list-style: none;text-shadow: 1px 1px 1px black;" class="mb-2"><i class="fas fa-check pr-1 text-success"></i>All Makes and Models</li>
+                    <li style="list-style: none;text-shadow: 1px 1px 1px black;" class="mb-2"><i class="fas fa-check pr-1 text-success"></i>No payment for 90 days qualified credit*</li>
+                    <li style="list-style: none;text-shadow: 1px 1px 1px black;" class="mb-2"><i class="fas fa-check pr-1 text-success"></i>All Major Banks</li>
+                </ul>
+
+                <ul class="" style=" text-align: justify; position: relative; top: -100px;">
+                    <li style="list-style:none">
+                        <a data-toggle="modal" href="#portfolioModal1" class="btn btn-primary btn-xl  text-uppercase portfolio-link" style="    color: black;
+                                                                                                                                                bottom: 19px;
+                                                                                                                                                background-color: #fed1368c;
+                                                                                                                                                border-color: #fed136;
+                                                                                                                                                position: relative;">GET STARTED</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.steps.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/modalMain.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
